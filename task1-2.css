@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1420px;
+    margin: 20px 40px;
+}
+
+.tabs{
+    overflow: hidden;
+    background-color: rgb(212, 212, 212);
+    border: 1px grey solid;
+    display: flex;
+}
+
+.tabs button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: inherit;
+    padding: 14px 16px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    transition: 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.tabs button:hover{
+    background-color: grey;
+    color: #FFFFFF;
+}
+
+.tabs button.active{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.tab-content{
+    display: none;
+    padding: 20px;
+    border: 1px grey solid;
+    text-align: justify;
+    border-top: none;
+}
+.tab-content.active{
+    display: block;
+}
+
+.tab-content p{
+    margin: 10px 0;
+}
+
+button.theme{
+    cursor: pointer;
+    background-color: #000000;
+    padding: 14px 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    transition: 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.dark-theme{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+button.dark-theme-btn{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.tabs.dark-theme-tabs{
+    background-color: rgb(60, 60, 60);
+}
+button.dark-tab-btn{
+    background-color: inherit;
+    color: #FFFFFF;
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper-watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: blue 5px solid;
+    padding: 30px 50px;
+    width: 400px;
+    height: 200px;
+    position: fixed;
+    top: 33%;
+    left: 33%;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.hour{
+    color: red;
+}
+
+.minute{
+    color: blueviolet;
+}
+
+.second{
+    color: blue;
+}
+
+p{
+    margin: 0 20px;
+}
